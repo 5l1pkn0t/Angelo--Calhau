@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    justify-content: center;
+    height: 40vw;
+    align-items: center;
+}
+
+main>div{
+    margin:5vw
+}
+
+.apresentar{
+    padding-bottom: 4vh;
+    font-size: 3vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nome{
+text-align: center;
+padding-bottom: 4vh;
+font-size: 7vh;
+}
+
+.sobre{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vh;
+}
+
+.habilidades {
+display: flex;
+justify-content: center;
+height: 10vh;
+
+}
+
+habilidades>img:hover{
+    height: 60px;
+    width: 60px;
+}
+
+.foto{box-shadow: 7px 7px 7px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
